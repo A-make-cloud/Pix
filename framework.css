@@ -1,4 +1,3 @@
-
 /*
     position: 
         - absolute
@@ -8,36 +7,43 @@
         - sticky
 */
 
-.p-rel{
+.p-rel {
     position: relative;
 }
+
 /* me doit etre appliqué que sur des enfant d'element en position relative */
-.p-abs{
+.p-abs {
     position: absolute;
 }
-.p-fix{
+
+.p-fix {
     position: fixed;
 }
 
 /*
     display
 */
-.d-flex{
+.d-flex {
     display: flex;
 }
-.d-grid{
+
+.d-grid {
     display: grid;
 }
-.d-block{
+
+.d-block {
     display: block;
 }
-.d-inline{
+
+.d-inline {
     display: inline;
 }
-.d-inline-block{
+
+.d-inline-block {
     display: inline-block;
 }
-.d-none{
+
+.d-none {
     display: none;
 }
 
@@ -52,13 +58,15 @@
         - initial
         - unset
 */
-.align-center{
+.align-center {
     align-items: center;
 }
-.align-baseline{
+
+.align-baseline {
     align-items: baseline;
 }
-.align-start{
+
+.align-start {
     align-items: start;
 }
 
@@ -83,13 +91,15 @@
         - initial
         - unset
 */
-.justify-center{
+.justify-center {
     justify-content: center;
 }
-.justify-space-b{
+
+.justify-space-b {
     justify-content: space-between;
 }
-.justify-space-a{
+
+.justify-space-a {
     justify-content: space-around;
 }
 
@@ -104,10 +114,11 @@
         - unset
 
 */
-.flex-direction-row{
+.flex-direction-row {
     flex-direction: row;
 }
-.flex-direction-column{
+
+.flex-direction-column {
     flex-direction: column;
 }
 
@@ -120,121 +131,148 @@
         - initial
         - unset
 */
-.flex-wrap-wrap{
+.flex-wrap-wrap {
     flex-wrap: wrap;
 }
 
 /* 
     margin top left bottom right
 */
-.margin-a{
+.margin-a {
     margin: auto;
 }
-.margin-5{
+
+.margin-5 {
     margin: 5px
 }
-.margin-10{
+
+.margin-10 {
     margin: 10px;
 }
-.margin-15{
+
+.margin-15 {
     margin: 15px;
 }
-.margin-20{
+
+.margin-20 {
     margin: 20px;
 }
 
 /*
     margin-y
 */
-.margin-y-5{
+.margin-y-5 {
     margin: 5px 0
 }
-.margin-y-10{
+
+.margin-y-10 {
     margin: 10px 0
 }
-.margin-y-15{
+
+.margin-y-15 {
     margin: 15px 0
 }
-.margin-y-20{
-    margin:20px 0
+
+.margin-y-20 {
+    margin: 20px 0
 }
 
 /* 
     margin-x
 */
-.margin-x-5{
+.margin-x-5 {
     margin: 0 5px;
 }
-.margin-x-10{
+
+.margin-x-10 {
     margin: 0 10px;
 }
-.margin-x-15{
+
+.margin-x-15 {
     margin: 0 15px;
 }
-.margin-x-20{
+
+.margin-x-20 {
     margin: 0 20px;
 }
 
 /* 
     padding top left bottom right
 */
-.padding-5{
+.padding-5 {
     padding: 5px
 }
-.padding-10{
+
+.padding-10 {
     padding: 10px;
 }
-.padding-15{
+
+.padding-15 {
     padding: 15px;
 }
-.padding-20{
+
+.padding-20 {
     padding: 20px;
+}
+
+.padding-31 {
+    padding: 31px;
 }
 
 /*
     padding-y
 */
-.padding-y-5{
+.padding-y-5 {
     padding: 5px 0
 }
-.padding-y-10{
+
+.padding-y-10 {
     padding: 10px 0
 }
-.padding-y-15{
+
+.padding-y-15 {
     padding: 15px 0
 }
-.padding-y-20{
-    padding:20px 0
+
+.padding-y-20 {
+    padding: 20px 0
 }
 
 /* 
     padding-x
 */
-.padding-x-5{
+.padding-x-5 {
     padding: 0 5px;
 }
-.padding-x-10{
+
+.padding-x-10 {
     padding: 0 10px;
 }
-.padding-x-15{
+
+.padding-x-15 {
     padding: 0 15px;
 }
-.padding-x-20{
+
+.padding-x-20 {
     padding: 0 20px;
 }
+
 /* 
     gap
 */
-.gap-5{
+.gap-5 {
     gap: 5px;
 }
-.gap-10{
+
+.gap-10 {
     gap: 10px;
 }
-.gap-15{
+
+.gap-15 {
     gap: 15px
 }
-.gap-20{
+
+.gap-20 {
     gap: 20px
 }
 
@@ -242,79 +280,96 @@
 /* 
     gap-y
 */
-.gap-y-5{
+.gap-y-5 {
     gap: 5px 0;
 }
-.gap-y-10{
+
+.gap-y-10 {
     gap: 10px 0;
 }
-.gap-y-15{
+
+.gap-y-15 {
     gap: 15px 0;
 }
-.gap-y-20{
+
+.gap-y-20 {
     gap: 20px 0;
 }
 
 /* 
     gap-x
 */
-.gap-x-5{
+.gap-x-5 {
     gap: 0 5px;
 }
-.gap-x-10{
+
+.gap-x-10 {
     gap: 0 10px;
 }
-.gap-x-15{
+
+.gap-x-15 {
     gap: 0 15px;
 }
-.gap-x-20{
+
+.gap-x-20 {
     gap: 0 20px;
 }
 
 /*
     border-radius
 */
-.radius-5{
+.radius-5 {
     border-radius: 5px;
 }
-.radius-10{
+
+.radius-10 {
     border-radius: 10px;
 }
-.radius-15{
+
+.radius-15 {
     border-radius: 15px;
 }
-.radius-20{
+
+.radius-20 {
     border-radius: 20px;
 }
-.radius-25{
+
+.radius-25 {
     border-radius: 25px;
 }
-.radius-30{
+
+.radius-30 {
     border-radius: 30px;
 }
-.radius-35{
+
+.radius-35 {
     border-radius: 35px;
 }
-.radius-40{
+
+.radius-40 {
     border-radius: 40px;
 }
-.radius-45{
+
+.radius-45 {
     border-radius: 45px;
 }
-.radius-50{
+
+.radius-50 {
     border-radius: 50px;
 }
 
 /*
     float
 */
-.float-right{
+.float-right {
     float: right;
 }
-.float-left{
+
+.float-left {
     float: left;
 }
-.clear{
+
+.clear {
     clear: both;
 }
 
@@ -325,83 +380,103 @@
 /* 
     text-align
 */
-.text-right{
+.text-right {
     text-align: right;
 }
-.text-left{
+
+.text-left {
     text-align: left;
 }
-.text-center{
+
+.text-center {
     text-align: center;
 }
-.text-justify{
+
+.text-justify {
     text-align: justify;
 }
 
 /* 
     font-weight
 */
-.weight-100{
+.weight-100 {
     font-weight: 100;
 }
-.weight-200{
+
+.weight-200 {
     font-weight: 200;
 }
-.weight-300{
+
+.weight-300 {
     font-weight: 300;
 }
-.weight-400{
+
+.weight-400 {
     font-weight: 400;
 }
-.weight-500{
+
+.weight-500 {
     font-weight: 500;
 }
-.weight-600{
+
+.weight-600 {
     font-weight: 600;
 }
-.weight-700{
+
+.weight-700 {
     font-weight: 700;
 }
-.weight-800{
+
+.weight-800 {
     font-weight: 800;
 }
-.weight-900{
+
+.weight-900 {
     font-weight: 900;
 }
 
 /* 
     font-size
 */
-.font-size-small{
+.font-size-small {
     font-size: 0.75em
 }
-.font-size-normal{
+
+.font-size-normal {
     font-size: 1em
 }
-.font-size-tall{
+
+.font-size-tall {
     font-size: 1.25em
 }
-.font-size-tallest{
+
+.font-size-tallest {
     font-size: 1.50em
 }
-.font-size-big{
+
+.font-size-big {
     font-size: 1.75em
 }
-.font-size-bigger{
+
+.font-size-bigger {
     font-size: 2em;
 }
-.font-size-bigger-big{
+
+.font-size-bigger-big {
     font-size: 3em;
 }
+
 /* 
     text-transform
 */
-.uppercase{
+.uppercase {
     text-transform: uppercase;
 }
-.capitalize{
+
+.capitalize {
     text-transform: capitalize;
 }
-.lowercase{
+
+.lowercase {
     text-transform: lowercase;
 }
